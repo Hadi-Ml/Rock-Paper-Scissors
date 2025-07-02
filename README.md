@@ -1,6 +1,7 @@
+
 # Rock-Paper-Scissors-Lizard-Spock Game
 
-A classic extended Rock-Paper-Scissors game implemented in **Python**, featuring the **"Lizard"** and **"Spock"** elements for added fun and strategy. Play against a computer opponent with adjustable difficulty levels.
+This is an engaging, extended version of the classic Rock-Paper-Scissors game, built with **Python**. It incorporates the popular **"Lizard"** and **"Spock"** elements, offering a deeper strategic experience against a computer opponent with adjustable difficulty levels.
 
 ---
 
@@ -13,7 +14,7 @@ A classic extended Rock-Paper-Scissors game implemented in **Python**, featuring
     * **Hard:** The computer attempts to make a **winning move** against your choice with a higher probability, offering a more **challenging** experience.
 * **User-Friendly Interface:** Simple **command-line interface** for easy interaction.
 * **Clear Rules Display:** The game rules are clearly explained at the start of each session.
-* **Executable Version:** Play the game directly **without needing a Python environment** (Windows only).
+* **Executable Version (Windows):** Play the game directly **without needing a Python environment** by running the executable within its distribution folder.
 
 ---
 
@@ -38,20 +39,24 @@ The game follows these extended rules where each element beats two others and lo
 
 You have two options to play the game:
 
-### Option 1: Using the Executable File (Recommended for Windows Users)
+### Option 1: Using the Executable Files (Recommended for Windows Users)
 
-1.  **Download the Project:**
+1.  **Download the Entire Project:**
     * **Clone the repository:**
         ```bash
         git clone [https://github.com/YourUsername/RockPaperScissorsGame.git](https://github.com/YourUsername/RockPaperScissorsGame.git)
         ```
-        (Replace `YourUsername` with your actual GitHub username and `RockPaperScissorsGame` with your repository name.)
+        *(Replace `YourUsername` with your actual GitHub username and `RockPaperScissorsGame` with your repository name.)*
     * Alternatively, you can download the project as a **ZIP file** directly from the GitHub page.
 
-2.  **Locate and Run the Executable:**
+2.  **Locate the Executable Folder:**
     * Navigate to the downloaded project folder on your computer.
-    * Find the **executable file** (e.g., `RockPaperScissorsGame.exe`) inside the folder.
-    * Simply **double-click** the `.exe` file to start the game.
+    * Inside, you will find a folder named **`Rock_Paper_Scissors`** that contains the executable file (`.exe`) along with its necessary library files.
+
+3.  **Run the Game:**
+    * Open the **`Rock_Paper_Scissors`** folder.
+    * Find the **executable file** (e.g., `RockPaperScissorsGame.exe`).
+    * Simply **double-click** the `.exe` file to start the game. **Do not move the `.exe` file out of this folder**, as it needs the accompanying files to run correctly.
     * Follow the prompts in the command window to play.
 
 ### Option 2: Running from Source Code (Requires Python)
@@ -60,8 +65,8 @@ You have two options to play the game:
     ```bash
     git clone [https://github.com/YourUsername/RockPaperScissorsGame.git](https://github.com/YourUsername/RockPaperScissorsGame.git)
     ```
-    (Replace `YourUsername` with your actual GitHub username and `RockPaperScissorsGame` with your repository name.)
-    Alternatively, you can download the project as a **ZIP file**.
+        *(Replace `YourUsername` with your actual GitHub username and `RockPaperScissorsGame` with your repository name.)*
+    * Alternatively, you can download the project as a **ZIP file**.
 
 2.  **Navigate to the Project Directory:**
     ```bash
@@ -77,7 +82,7 @@ You have two options to play the game:
 4.  **Follow the Prompts:**
     * Enter your **name** when prompted.
     * Choose whether you want to **play** (`Yes` or `No`).
-    * Select the **difficulty level** (`Easy` or `Hard`).
+    * Select the **difficulty level** (`Easy` or **Hard**).
     * Enter your **choice** (Rock, Paper, Scissors, Spock, or Lizard).
     * The game will display the **results**, and you can choose to play again.
 
@@ -85,7 +90,7 @@ You have two options to play the game:
 
 ## 🛠️ Requirements
 
-* **For running the executable:** No specific requirements (Windows OS).
+* **For running the executable:** No specific requirements (Windows OS). Just ensure you keep the `.exe` file in its distributed folder (`Rock_Paper_Scissors`) with all necessary accompanying files.
 * **For running from source code:**
     * **Python 3.x** (Tested with Python 3.8+)
     * No external libraries are required beyond Python's **built-in `random` module**.
@@ -94,9 +99,16 @@ You have two options to play the game:
 
 ## 📂 Project Structure
 
-RockPaperScissorsGame/
+RockPaperScissorsGame
+
 ├── rock_paper_scissors_game.py    # Main game logic and execution (Python source code)
-├── RockPaperScissorsGame.exe      # Executable version for Windows
+
+├── Rock_Paper_Scissors/           # Folder containing the executable and its dependencies
+
+│   └── RockPaperScissorsGame.exe  # The executable file
+
+│   └── ... (other necessary files/folders for the executable)
+
 └── README.md                      # Project documentation (this file)
 
 ---
@@ -120,5 +132,3 @@ Feel free to **fork** this repository, make **improvements**, and submit **pull 
 ## 📄 License
 
 This project is **open source** and available under the **[MIT License](https://opensource.org/licenses/MIT)**.
-
----
